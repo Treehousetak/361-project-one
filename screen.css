@@ -7,13 +7,33 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+/* Read Mark Hurst */
 
 html {       /* 18px/16px=1.125em */
   font-size: 1.125em; /* 16px or 1em is the default web broweser font size */
-  line height: 1.2/*or 120% */; /* 1 is the default */
-
+  line height: 1.222em; /*or 120% */; /* 1 is the default */
+  padding: 1.222em 1em;
 }
 
 p {
+  text-indent: 1em;
   padding-bottom: 1.222em;
+}
+
+/*research git add --patch */
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+
+h2 + p,
+h3 + p,
+h4 + p,
+ {
+
+}
+
+ ./*insert name of text here
+ {
+ text-indent: 0;
 }
