@@ -8,6 +8,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 /* Read Mark Hurst */
+/* 1em = 18px
+1 lead = 22px
+Visit www.ModularScale.com  */
 
 html {       /* 18px/16px=1.125em */
   font-size: 1.125em; /* 16px or 1em is the default web broweser font size */
@@ -33,7 +36,18 @@ h4 + p,
 
 }
 
- ./*insert name of text here
+ul {
+  color: blue;
+  padding: 1.222em;
+  list-style-type: square;
+}
+li {
+  padding-bottom: 1.222em;
+}
+
+
+
+ .     /*insert name of text here
  {
  text-indent: 0;
-}
+} */
